@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&display=swap');
+
+.signin-create{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin: 50px;
+    width: 60%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+;
+}
+
+.sign-in{
+    border-right: 1px solid #212121;
+}
+
+.sign-in, .create{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.sign-in form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in form input {
+    border: none;
+    border-bottom: 1px solid #212121;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sign-in p, .create p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+button{
+    width: 283px;
+    height: 37px;
+    flex-shrink: 0;
+    background-color: #212121;
+    border: none;
+    color: #FFF;
+    width: 90%;
+}
+
+.sign-in a{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .sign-in{
+        border: none;
+        border-bottom: 1px solid #212121;
+    }
+
+    .sign-in, .create{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sign-in, .create{
+        width: 100%;
+    }
+}

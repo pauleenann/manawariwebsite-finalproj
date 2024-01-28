@@ -1,0 +1,45 @@
+.manawari-products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 150px 0;
+    
+}
+
+.manawari-products h1{
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+@media screen and (max-width:850px) {
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+
+    .col2 p {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .col2 p {
+        font-size: 1.2rem;
+    }
+    
+}

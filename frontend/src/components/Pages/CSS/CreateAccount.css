@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&display=swap');
+
+.create-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    width: 100%;
+    height: 100vh;
+}
+
+.register{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register .container{
+    align-items: baseline;
+    background-color: #FFF;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register .container h3{
+    color: #000;
+    font-family: 'Montserrat Alternates';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.register .container p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.register .container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register .container form input{
+    border: none;
+    border-bottom: 1px solid #212121;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 283px;
+    height: 37px;
+    flex-shrink: 0;
+    background-color: #212121;
+    color: #FFF;
+    width: 90%;
+    border: none;
+}
+
+@media screen and (max-width:1000px){
+    .create-account{
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .register{
+        width: 100%;
+        height: 60%;
+    }
+    
+    .register .container{
+        width:70%;
+    }
+    
+}

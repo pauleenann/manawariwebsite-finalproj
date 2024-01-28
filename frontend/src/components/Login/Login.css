@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.container {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    
+}
+
+.sign-in{
+    border-right: 1px solid #212121;
+}
+
+.sign-in, .create{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.sign-in form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in form input {
+    border: none;
+    border-bottom: 1px solid #212121;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sign-in p, .create p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.sign-in-button, .register-button {
+    width: 283px;
+    height: 37px;
+    flex-shrink: 0;
+    background-color: #212121;
+    color: #FFF;
+    width: 90%;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions for background-color and transform */
+
+    /* Other styles for the buttons */
+}
+
+.sign-in-button:hover, .register-button:hover {
+    background-color: #000000; /* Change background color on hover */
+    transform: scale(1.05); /* Add scale transformation on hover */
+    cursor: pointer;
+}
+
+.sign-in a{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+p.error-message{
+    color: red;
+}

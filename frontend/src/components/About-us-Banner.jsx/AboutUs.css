@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&display=swap');
+
+.banner-about-us{
+    width: 100%;
+    height: 490px;
+}
+
+.banner-about-us .img6{
+    width: 100%;
+    height: 500px;
+    background-image: url("../Images/model-demonstrating-earrings-ring.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.img6-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img6-content p {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: 296px;
+}
+
+.img6-content button{
+    width: 132px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #212121;
+    color: white;
+}
+
+.discover:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px){
+    .banner-about-us{
+        height: 40vh;
+    }
+
+    .banner-about-us .img6{
+        height: 300px;
+    }
+    .img6-content{
+        width: 55%;
+    }
+
+    .img6-content p{
+        font-size: 15px;
+    }
+
+    .img6-content button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
